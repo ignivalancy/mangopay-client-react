@@ -1,5 +1,5 @@
 # MANGOPAY JS Client Library
-================================================
+
 Mangopay React and React Native First JS Client library with card registration workflow.
 
 
@@ -15,20 +15,12 @@ Usage inside your app
 	*** Get Client Instance
 	const MangoPayClient = Mangopay.getInstance();
 
-	async getCards() {
-      try {
-          let result = await MangoPayClient.getCards();
-          console.log('getCards', result);
-      } catch (err) {
-          console.log(err)
-      }
-  }
-
-
-Documentation
--------------------------------------------------
-Refer to [MANGOPAY REST API documentation](http://docs.mangopay.com/api-references/) and 
-[MANGOPAY card registration process](http://docs.mangopay.com/api-references/card-registration/) for more information.
+    try {
+    	let result = await MangoPayClient.getCards();
+        console.log('getCards', result);
+    } catch (err) {
+    	console.log(err)
+    }
 
 
 Usage
@@ -73,6 +65,14 @@ Card Registration Process (Bonus):
     // @cardData {object} sensitive card details {currencyCode, cardNumber, cardType, cardExpirationDate, cardCvx}
     let result = await MangoPayClient.cardRegisterationProcesses(cardData);
     console.log(result);
+
+
+Learn more
+-------------------------------------------------
+- [MANGOPAY REST API documentation](http://docs.mangopay.com/api-references/)
+- [MANGOPAY card registration process](http://docs.mangopay.com/api-references/card-registration/)
+- [Async function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
+- [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
 
 License
