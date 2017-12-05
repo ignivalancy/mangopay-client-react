@@ -12,7 +12,11 @@
   },
   "keywords": [
     "react",
+    "react-native"
     "javascript",
+    "async",
+    "promise",
+    "card-registration",
     "mangopay"
   ],
   "author": "Lancy Goyal",
