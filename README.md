@@ -15,12 +15,12 @@ Usage inside your app
 	*** Get Client Instance
 	const MangoPayClient = Mangopay.getInstance();
 
-    	try {
-    	    let result = await MangoPayClient.getCards();
-            console.log('getCards', result);
-    	} catch (err) {
-    	    console.log(err)
-    	}
+	try {
+	  let result = await MangoPayClient.getCards();
+	  console.log('getCards', result);
+	} catch (err) {
+	    console.log(err)
+	}
 
 
 Usage
