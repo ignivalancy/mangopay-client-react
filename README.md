@@ -5,7 +5,7 @@ Mangopay React and React Native First JS Client library with card registration w
 
 Installation
 -------------------------------------------------
-Install the module via npm
+Install the module via [npm](https://www.npmjs.com/package/mangopay-client-react)
 
 	npm i mangopay-client-react -S
 
