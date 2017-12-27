@@ -19,7 +19,7 @@ Usage inside your app
 	  let result = await MangoPayClient.getCards();
 	  console.log('getCards', result);
 	} catch (err) {
-	    console.log(err)
+	  console.log(err)
 	}
 
 
